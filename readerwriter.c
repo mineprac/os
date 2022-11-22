@@ -1,6 +1,8 @@
 #include <semaphore.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <pthread.h>
+
 sem_t x, y;
 pthread_t
     tid;
